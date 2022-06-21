@@ -1,6 +1,11 @@
-Author: Molli Bishop
-Files: dijkstra.lp and map.lp
-Description: This program is an implementation of Dijkstras shortest path algorithm in Clingo.
+Author: 
+Molli Bishop
+
+Files: 
+dijkstra.lp and map.lp
+
+Description: 
+This program is an implementation of Dijkstras shortest path algorithm in Clingo.
 
 Notes:
 The program is non-directional so it can start at a and go to e or the reverse.
