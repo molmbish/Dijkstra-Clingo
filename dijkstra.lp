@@ -1,12 +1,7 @@
 %Name        :  Molli Bishop
-%Class       :  CSCI 470
 %Date        :  3/9/2022
-%Module      :  dijkstra.lp
+%File        :  dijkstra.lp
 %Description :  Implementation of Dijkstra's algorithm in Clingo
-%Copyright   :  (c) Molli Bishop     
-%Maintainer  :  molmbish@ut.utm.edu
-%Stability   :  stable
-
 
 %The edges are undirected
 edge(X, Y, W) :- edge(Y, X, W).
@@ -16,7 +11,7 @@ first(start).
 %Ending node for command line parameter
 last(end).
 
-%add edge to path if it is reachable
+%Add edge to path if it is reachable
 {path(X, Y, W) : edge(X, Y, W)}1 :- reach(X).
 
 %A node is reachable if it is adjacent to the starting node
