@@ -1,19 +1,26 @@
 %Name: Molli Bishop
-%Class: CSCI 470
 %Date: 3/9/2022
 %File: map.lp
 %Description: Map for Dijkstra's algorithm in Clingo 
 
-%The maps nodes
-node(a ; b ; c ; d ; e).
+node(a ; b ; c ; d ; e ; f ; g ; h ; i ; j).
 
 %The maps edges
-edge(a, b, 4). 
-edge(a, c, 10). 
+edge(a, b, 2). 
+edge(a, c, 4). 
 edge(b, c, 8). 
-edge(b, d, 11). 
-edge(c, d, 7).
-edge(c, e, 16).  
-edge(d, a, 9). 
-edge(d, e, 14).
-edge(e, b, 32).
+edge(b, d, 12). 
+edge(b, e, 16).
+edge(c, d, 18).
+edge(c, f, 20).  
+edge(d, e, 11). 
+edge(d, f, 10).
+edge(e, g, 18).
+edge(e, h, 15).
+edge(f, g, 2).
+edge(f, i, 5).
+edge(g, h, 7).
+edge(g, i, 8).
+edge(h, i, 9).
+edge(h, j, 8).
+edge(i, j, 5).
